@@ -1,0 +1,58 @@
+// System call numbers
+#ifndef SYSCALL_H
+#define SYSCALL_H
+
+#define SYS_fork 1
+#define SYS_exit 2
+#define SYS_wait 3
+#define SYS_pipe 4
+#define SYS_read 5
+#define SYS_kill 6
+#define SYS_exec 7
+#define SYS_fstat 8
+#define SYS_chdir 9
+#define SYS_dup 10
+#define SYS_getpid 11
+#define SYS_sbrk 12
+#define SYS_sleep 13
+#define SYS_uptime 14
+#define SYS_open 15
+#define SYS_write 16
+#define SYS_mknod 17
+#define SYS_unlink 18
+#define SYS_link 19
+#define SYS_mkdir 20
+#define SYS_close 21
+
+// extra
+#define SYS_getprocinfo 22
+#define SYS_cmostime 23
+#define SYS_halt 24
+#define SYS_getcwd 25
+#define SYS_getcpuid 26
+#define SYS_pipepoll 27
+#define SYS_getppid 28
+#define SYS_is_pipe 29
+#define SYS_clrscr 30
+#define SYS_getcattr 31
+#define SYS_setcattr 32
+#define SYS_cflush 33
+#define SYS_getuname 34
+#define SYS_setuname 35
+
+// lab assignment 5
+#define SYS_wait2 36
+
+// mid-term project
+#define SYS_stat 37
+#define SYS_opendir 38
+#define SYS_readdir 39
+#define SYS_closedir 40
+#define SYS_symlink 41
+#define SYS_readlink 42
+
+// extra
+#define SYS_setbgcolor 43
+#define SYS_setfgcolor 44
+
+#endif // SYSCALL_H
